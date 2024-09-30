@@ -1,0 +1,85 @@
+.item{
+    padding:12px ;
+    border:  1px solid rgb(109, 7, 7) ;
+    margin: 16px 0;
+    /* background: white; */
+    /* position: sticky;
+    top: 16px; */
+    /* width: 50px; */
+   
+
+   
+}
+/* 
+.item1{
+    background-color: rgb(248, 223, 191);
+    width: 400px;
+}
+
+.item2{
+    background-color: rgb(144, 213, 190);
+    width: 350px;
+    z-index: 2;
+}
+
+/* .item3{ */
+     /* position: relative; */
+    /* position: sticky;
+    top: 0;  */
+    /* background-color: rgb(89, 89, 162);
+    width: 300px; */
+    /* z-index: 3; 
+}
+
+/* .item4{ */
+    /* background-color: rgb(121, 64, 174);
+    width: 250px;
+} */
+
+/* .item5{ */
+    /* position: sticky;
+    top:0; 
+    left:48px; */
+    /* bottom: 16px; */
+    /* right: 16px; */
+    /* background-color: rgb(130, 19, 69);
+    width: 200px;
+    z-index: -1; 
+}
+
+/* .divblock{ */
+    /* box-sizing: border-box; */
+    /* width: 100%; 
+   
+} */
+.screen{
+    height: 400vh;
+}
+
+
+
+.spanelement{
+
+    display: inline-block;
+    margin-top: 60px;
+    padding-top: 60px;
+    /* height: 150px; */
+}
+
+/* .item2{
+    display: none;
+   
+} */
+
+.container{
+    height: 800px;
+    display: flex;
+    flex-direction:column ;
+    gap: 12px;
+
+    flex-wrap:wrap;
+
+    /* justify-content: center; */
+
+    align-items: center;
+}

@@ -1,0 +1,62 @@
+:root{
+    font-size: 24px;
+}
+
+.class1 {
+    margin: 8px 32px 32px 16px;
+    padding: 32px 16px;
+    border: 1px solid rgb(146, 20, 20);
+}
+
+p:first-child, p:last-child, p:nth-child(3) {
+color: rgb(245, 155, 249);
+}
+
+.square{
+    width: 75px;
+    height: 75px;
+    border: 1px solid rgb(14, 154, 149);
+}
+
+.square:hover{
+    border:1px solid rgb(240, 16, 31)
+}
+
+.parent{
+    width: 50px;
+    height: 250px;
+    border: 1px solid rgb(13, 204, 13);
+}
+
+.child{
+    height: 50%;
+    width: 80%;
+    border: 1px solid rgb(211, 4, 115);
+}
+
+.heading::before{
+    content: 'inainte ';
+}
+
+.heading::after{
+    content: ' dupa';
+}
+
+
+.class3{
+    font-size: 24px;
+    
+    p :first-child{
+        font-size: 2em;
+    }
+
+    p :last-child{
+        font-size: 2rem;
+    }
+}
+
+.class3{
+    height: 75vh;
+    width: 75vw;
+}
+
